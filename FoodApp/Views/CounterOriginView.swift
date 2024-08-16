@@ -15,7 +15,7 @@ struct CounterOriginView: View {
     var yOffsetForPrice: CGFloat = 0
 
     
-    var price: Int = 1231321
+    var price: Int = 322
     var body: some View {
         HStack {
             Text("\(price)")

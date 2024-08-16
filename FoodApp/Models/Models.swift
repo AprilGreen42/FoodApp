@@ -6,9 +6,10 @@
 //
 
 import Foundation
-
+import SwiftUI
 
 struct Product {
+    var price: Int
     var image: String
     var name: String
     var country: String?
@@ -17,6 +18,8 @@ struct Product {
     var review: Int
     var rating: Float
     var salePercent: Int
+    var badgeName: String
+    var colorBadge: Color
 }
 
 

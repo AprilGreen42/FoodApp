@@ -9,12 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
 
-    @State private var sees: Bool = false
+    @State private var grid: Bool = false
     @State private var swifthButton: String = ""
     var body: some View {
         NavigationStack {
         VStack {
-            if !sees {
+            if !grid {
                GridView()
             }
             else {
@@ -24,9 +24,9 @@ struct ContentView: View {
             .toolbar {
                 ToolbarItem(placement: .topBarLeading, content: {
                     Button(action: {
-                        sees.toggle()
+                        grid.toggle()
                     }, label: {
-                        Image(systemName: sees ? "rectangle.grid.2x2" : "rectangle.grid.1x2")
+                        Image(systemName: grid ? "rectangle.grid.2x2" : "rectangle.grid.1x2")
                     })
                 })
             }

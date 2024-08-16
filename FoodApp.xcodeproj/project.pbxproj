@@ -19,6 +19,7 @@
 		11ACD8842C69767200DA274D /* ActionListButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ACD8832C69767200DA274D /* ActionListButtonsView.swift */; };
 		11ACD8862C6A142A00DA274D /* CounterOriginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ACD8852C6A142A00DA274D /* CounterOriginView.swift */; };
 		11ACD8882C6ACF1F00DA274D /* AddCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ACD8872C6ACF1F00DA274D /* AddCounterView.swift */; };
+		11ACD88D2C6C26A600DA274D /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ACD88C2C6C26A600DA274D /* BadgeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		11ACD8832C69767200DA274D /* ActionListButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionListButtonsView.swift; sourceTree = "<group>"; };
 		11ACD8852C6A142A00DA274D /* CounterOriginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterOriginView.swift; sourceTree = "<group>"; };
 		11ACD8872C6ACF1F00DA274D /* AddCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCounterView.swift; sourceTree = "<group>"; };
+		11ACD88C2C6C26A600DA274D /* BadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				11ACD8792C64328E00DA274D /* GridView.swift */,
 				11ACD87B2C64329500DA274D /* ListView.swift */,
 				11ACD8832C69767200DA274D /* ActionListButtonsView.swift */,
+				11ACD88C2C6C26A600DA274D /* BadgeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -109,8 +112,8 @@
 		11ACD88B2C6AD76700DA274D /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				11ACD8812C6814EE00DA274D /* CardViewForGrid.swift */,
 				11ACD87D2C680EA500DA274D /* CardViewForList.swift */,
+				11ACD8812C6814EE00DA274D /* CardViewForGrid.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11ACD88D2C6C26A600DA274D /* BadgeView.swift in Sources */,
 				11ACD87C2C64329500DA274D /* ListView.swift in Sources */,
 				11ACD86E2C6430A400DA274D /* ContentView.swift in Sources */,
 				11ACD8842C69767200DA274D /* ActionListButtonsView.swift in Sources */,
